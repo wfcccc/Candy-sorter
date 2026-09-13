@@ -163,7 +163,7 @@ static const float kDefaultHueMax[COLOR_COUNT] = {  18.0f, 42.0f, 72.0f, 165.0f,
 #define T_GATE_MOVE         150  // 闸板开/关一次所需时间
 #define T_GATE_SETTLE       120  // 糖豆落到挡板B 上后静置
 #define T_COLOR_SETTLE      120  // 判色前静置 (等仓内气流/微振动平息)
-#define T_SORTER_MOVE       450  // 底部摇臂最大行程(约165°)转位时间
+#define T_SORTER_MOVE       450  // 底部摇臂最大行程(0°→170°)转位时间
 #define T_DROP_HOLD         220  // 挡板B保持打开时间 (糖豆落到导流槽上)
 #define T_DROP_RECOVER      180  // 挡板B关闭回位时间
 #define T_BOOT_HOME_SETTLE  700  // 上电回待机位等待时间
